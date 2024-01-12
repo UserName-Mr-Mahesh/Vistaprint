@@ -1,0 +1,26 @@
+#container{
+    width: 100%;
+    padding: 10px;
+}
+#container ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+#container ul li{
+    padding: 10px;
+}
+@media screen and (max-width:1030px){
+    #container{
+        display: none;
+    }
+    /* #menunone svg{
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: aliceblue;
+        width: 250px;
+    } */
+    
+}

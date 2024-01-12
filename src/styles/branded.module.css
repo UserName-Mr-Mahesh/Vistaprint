@@ -1,0 +1,24 @@
+#container{
+    width: 100%;
+    padding: 30px;
+}
+#container ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    overflow: auto;
+
+}
+#container ul img{
+width: 320px;
+height: 320px;
+}
+#container ul li{
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    #container ul img{
+        width: 200px;
+        height: 200px;
+    }
+}

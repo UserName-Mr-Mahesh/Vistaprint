@@ -1,0 +1,42 @@
+#container{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    background-color: lightgray;
+}
+#container #left{
+    width: 50%;
+    padding: 5% 10%;
+    display: grid;
+    gap: 20px;
+}
+#container #right{
+    width: 50%;
+    padding: 5% 10%;
+    
+}
+#right ul{
+    list-style-type: none;
+    display: grid;
+    gap: 20px;
+}
+@media screen and (max-width:800px){
+    #container{
+        display: inline-block;
+        font-size: 17px;
+    }
+    #container #left{
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+
+    }
+    #container #right{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    #right ul{
+        gap: 10px;
+    }
+}

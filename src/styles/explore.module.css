@@ -1,0 +1,18 @@
+#container{
+    width: 100%;
+    padding: 30px;
+}
+#container ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    overflow: auto;
+}
+#container ul img{
+width: 120px;
+height: 100px;
+border-radius: 50%;
+}
+#container ul li{
+    padding: 10px;
+}
