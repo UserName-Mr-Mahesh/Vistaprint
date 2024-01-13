@@ -6,6 +6,9 @@ import m3 from '../images/mostpopular/m3.webp';
 import m4 from '../images/mostpopular/m4.webp';
 import m5 from '../images/mostpopular/m5.webp';
 import m6 from '../images/mostpopular/m6.webp';
+import m7 from '../images/mostpopular/m7.webp';
+import m8 from '../images/mostpopular/m8.webp';
+
 const MostPopular = () => {
   return (
     <div id={style.container}>
@@ -17,6 +20,9 @@ const MostPopular = () => {
             <li><img src={m4} alt="" /><br />Custom Winter Wear →</li>
             <li><img src={m5} alt="" /><br />Calendars, Notebooks and Diaries →</li>
             <li><img src={m6} alt="" /><br />Photo Albums →</li>
+            <li><img src={m7} alt="" /><br />Stamps →</li>
+            <li><img src={m8} alt="" /><br />Letterheads →</li>
+
         </ul>
     </div>
   )

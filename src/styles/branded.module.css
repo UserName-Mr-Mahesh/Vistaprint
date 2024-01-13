@@ -12,6 +12,7 @@
 #container ul img{
 width: 320px;
 height: 320px;
+cursor: pointer;
 }
 #container ul li{
     padding: 10px;

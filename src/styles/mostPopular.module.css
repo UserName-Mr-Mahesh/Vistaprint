@@ -6,25 +6,32 @@
     display: flex;
     width: 100%;
     list-style-type: none;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
 }
 #container ul img{
-width: 100%;
+width: 230px;
 height: 200px;
 }
 #container ul li{
     padding: 10px;
-    width: 16.6%;
+    cursor: pointer;
 }
 @media screen and (max-width:1030px){
+    #container ul{
+        overflow: unset;
+        flex-wrap: wrap;
+    }
     #container ul li{
         padding: 10px;
-        width: 33.3%;
     }
 }
 @media screen and (max-width:600px){
+    #container ul{
+        overflow: unset;
+        flex-wrap: wrap;
+    }
     #container ul li{
         padding: 10px;
-        width: 50%;
     }
 }

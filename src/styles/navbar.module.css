@@ -15,6 +15,7 @@
 }
 #container #menusimbol,#container #search{
     display: none;
+    cursor: pointer;
 }
 #container input{
     width: 500px;
@@ -68,4 +69,7 @@
     width: 70%;
     height: 100vh;
     line-height: 35px;
+}
+#options ul li{
+    cursor: pointer;
 }

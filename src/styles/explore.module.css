@@ -15,4 +15,5 @@ border-radius: 50%;
 }
 #container ul li{
     padding: 10px;
+    cursor: pointer;
 }

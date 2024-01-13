@@ -6,6 +6,8 @@ import t3 from '../images/trending/t3.webp';
 import t4 from '../images/trending/t4.webp';
 import t5 from '../images/trending/t5.webp';
 import t6 from '../images/trending/t6.webp';
+import t7 from '../images/trending/t7.webp';
+import t8 from '../images/trending/t8.webp';
 
 const Trending = () => {
   return (
@@ -18,6 +20,8 @@ const Trending = () => {
             <li><img src={t4} alt="" /><br />Winter Jackets - Sleeveless →</li>
             <li><img src={t5} alt="" /><br />Desk Calendars →</li>
             <li><img src={t6} alt="" /><br />Wall Calendars →</li>
+            <li><img src={t7} alt="" /><br />Personalised Notebooks →</li>
+            <li><img src={t8} alt="" /><br />Diary With Pen Holder →</li>
         </ul>
     </div>
   )
