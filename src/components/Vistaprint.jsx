@@ -10,7 +10,6 @@ import Explore from './Explore'
 import NewArrivels from './NewArrivels'
 import ImageSection2 from './ImageSection2'
 import About from './About'
-import Hamburg from './Hamburg'
 import Footer from './Footer'
 
 const Vistaprint = () => {
@@ -28,7 +27,6 @@ const Vistaprint = () => {
         <NewArrivels/>
         <About/>
         <Footer/>
-        {/* <Hamburg/> */}
     </div>
   )
 }

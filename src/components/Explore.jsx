@@ -26,7 +26,6 @@ const Explore = () => {
             <li><img src={e8} alt="" /><br />Custom Bags →</li>
             <li><img src={e9} alt="" /><br />Custom Caps →</li>
             <li><img src={e10} alt="" /><br />Custom Mousepads →</li>
-
         </ul>
     </div>
   )

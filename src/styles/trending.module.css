@@ -16,3 +16,10 @@ height: 200px;
     padding: 10px;
     cursor: pointer;
 }
+@media screen and (max-width:600px){
+    #container ul img{
+        width: 150px;
+        height: 150px;
+        }
+        
+}

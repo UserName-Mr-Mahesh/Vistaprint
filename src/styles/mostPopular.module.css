@@ -34,4 +34,9 @@ height: 200px;
     #container ul li{
         padding: 10px;
     }
+    #container ul img{
+        width: 150px;
+        height: 150px;
+        }
+        
 }
