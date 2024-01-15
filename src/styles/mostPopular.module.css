@@ -33,6 +33,7 @@ height: 200px;
     }
     #container ul li{
         padding: 10px;
+        width: 150px;
     }
     #container ul img{
         width: 150px;
